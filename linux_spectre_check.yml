@@ -1,0 +1,10 @@
+# file: linux_spectre_check.yml
+---
+- name: Check for Spectre and Meltdown CVEs
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Run Red Hat's spectre_meltdown.sh script
+      script: 'spectre_meltdown.sh'
+      ignore_errors: True
+      changed_when: False
