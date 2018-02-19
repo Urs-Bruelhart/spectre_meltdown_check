@@ -1,6 +1,6 @@
 # Spectre And Meltdown Detector Playbook #
   last updated on 2018-02-19<br>
-_ by Karl Simpson, karl.simpson@syniverse.com _
+  by [V01dDweller](https://github.com/V01dDweller)
 
 **Requirements:** Bash (Linux, OS X, Cygwin or WSL) with ansible 1.9 - 2.4 in your PATH. 
 
