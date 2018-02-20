@@ -4,7 +4,7 @@
 
 **Requirements:** Bash (Linux, OS X, Cygwin or WSL) with ansible 1.9 - 2.4 in your PATH. 
 
-**sm_check.sh** is a wrapper around the short ansible linux_spectre_check.yml playbook which in turn executes Red Hat's spectre_meltdown.sh script against your inventory. spectre_meltdown.sh can also be uploaded manually and run via ssh session if ansible is not an option. Check [Red Hat's site](https://access.redhat.com/labsinfo/speculativeexecution) for the latest version of spectre_meltdown.sh.
+**sm_check.sh** is a wrapper around the short ansible linux_spectre_check.yml playbook which in turn executes Red Hat's spectre_meltdown.sh script against your inventory. This allows this script to be run againts many hosts at once via ansible inventories. spectre_meltdown.sh can also be uploaded manually and run via ssh session if ansible is not an option. Check [Red Hat's site](https://access.redhat.com/labsinfo/speculativeexecution) for the latest version of spectre_meltdown.sh.
 
 **Usage:**
 
