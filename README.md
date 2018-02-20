@@ -20,7 +20,7 @@ or
 
 **Notes**
 * Hosts must be RHEL5/CentOS 5 or higher
-* Have ssh access to all hosts
+* User must have ssh access to all hosts, (remove '-c pramik -k' for ssh-key exchange)
 * If using an inline list of hosts, have at least one comma and no spaces.
 
 * This playbook uses the "human_log.py" callback plugin so that ansible script module output is readable. More info for that plug-in can be found [here](https://github.com/n0ts/ansible-human_log).
