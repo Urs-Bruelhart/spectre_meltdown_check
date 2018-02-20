@@ -17,4 +17,4 @@
 #
 ########################################################################
 
-ansible-playbook -i $1 linux_spectre_check.yml -c paramiko -k | sed '/fatal/d'
+ansible-playbook -i $1 $2 $3 $4 $5 $6 linux_spectre_check.yml -c paramiko -k | sed '/fatal/d'
