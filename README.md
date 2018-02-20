@@ -1,4 +1,4 @@
-# Spectre And Meltdown Detector Playbook #
+# Spectre and Meltdown Detector Playbook #
   last updated on 2018-02-19<br>
   by [V01dDweller](https://github.com/V01dDweller)
 
