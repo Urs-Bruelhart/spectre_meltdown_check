@@ -9,7 +9,7 @@
 #
 # or
 #
-#   sm_check.sh my_inventory.ini
+#   sm_check.sh my_inventory.ini -k myusername
 #
 # If there is only one host, then be sure it ends in a comma, e.g.
 #
