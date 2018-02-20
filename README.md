@@ -28,7 +28,7 @@ spectre_meltdown_check
 or
 
 ```
-./sm_check.sh host1,host2,host3
+./sm_check.sh host1,host2,host3 -u <user-name>
 ```
 
 **Notes/Limitations**
