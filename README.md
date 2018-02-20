@@ -4,6 +4,19 @@
 
 **Requirements:** Bash on any Linux, OS X, Cygwin or WSL control machine with ansible 1.9 - 2.4 in your PATH. 
 
+```
+spectre_meltdown_check
+├── ansible.cfg
+├── linux_spectre_check.yml
+├── plugins
+│   └── callback
+│       ├── human_log.py
+│       └── human_log.pyc
+├── README.md
+├── sm_check.sh
+└── spectre_meltdown.sh
+```
+
 **sm_check.sh** is a wrapper around the short ansible linux_spectre_check.yml playbook which, in turn, executes Red Hat's spectre_meltdown.sh script against your ansible inventory, allowing the script to be run againts many hosts simultaneously. spectre_meltdown.sh can also be uploaded manually and run via ssh session if ansible is not an option. Check [Red Hat's site](https://access.redhat.com/labsinfo/speculativeexecution) for the latest version of spectre_meltdown.sh.
 
 **Usage:**
