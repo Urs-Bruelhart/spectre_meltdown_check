@@ -1,4 +1,4 @@
-# Spectre and Meltdown Vulnerbility Check #
+# Spectre and Meltdown Vulnerability Check #
   last updated on 2018-02-19<br>
   by [V01dDweller](https://github.com/V01dDweller)
 
