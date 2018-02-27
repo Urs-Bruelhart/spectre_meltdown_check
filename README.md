@@ -36,7 +36,7 @@ or
 * User must have ssh access to all hosts, (remove '-c paramiko -k' to use default ssh-key exchange)
 * If using an inline list of hosts, have at least one comma and no spaces.
 
-* This playbook uses the "human_log.py" callback plugin so that ansible script module output is readable. More info for that plug-in can be found [here](https://github.com/n0ts/ansible-human_log).
+* This playbook uses the "human_log.py" callback plugin so that ansible script module output is readable. More on that plug-in can be found [here](https://github.com/n0ts/ansible-human_log).
 
 * Since the script will often fail to find CPU microcode update on a patched system, it will exit with return code 1 causing ansible to return a lot of red junk in addition to the script output. The pipe to sed removes the junk leaving clean script output.
 
