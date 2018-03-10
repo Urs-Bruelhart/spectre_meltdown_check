@@ -32,7 +32,7 @@ or
 ```
 
 **Notes/Limitations**
-* Hosts must be RHEL5/CentOS 5 or higher
+* Inventory hosts must be RHEL5/CentOS 5 or higher
 * User must have ssh access to all hosts, (remove '-c paramiko -k' to use default ssh-key exchange)
 * If using an inline list of hosts, have at least one comma and no spaces.
 
